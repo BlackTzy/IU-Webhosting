@@ -1,0 +1,41 @@
+
+* {
+    box-sizing: border-box;
+  }
+  body{
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    align-items: center;
+  }
+  h2{
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    color: whitesmoke;
+  }
+h3{
+    font-size: 100px;
+    text-align: center;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+}
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 50px;
+    height: 250px;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row{
+    font-weight: bold;
+  }
